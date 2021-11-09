@@ -1,15 +1,14 @@
-import './App.css';
+import { BrowserRouter } from 'react-router-dom';
 import InitialPage from './Pages/InitialPage';
-// import SumaryOfMy from './Pages/SumaryOfMe';
+import PageTwo from './Pages/PageTwo';
+import { Route } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="App">
-      <span className="components">
-        <InitialPage />
-        {/* <SumaryOfMy /> */}
-      </span>
-    </div>
+    <BrowserRouter>
+    <Route exact path="/" component={ InitialPage } />;
+    <Route path="/pagetwo" component={ PageTwo } />;
+    </BrowserRouter>
   );
 }
 
