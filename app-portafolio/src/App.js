@@ -1,11 +1,14 @@
 import './App.css';
+import InitialPage from './Pages/InitialPage';
+// import SumaryOfMy from './Pages/SumaryOfMe';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>Iniciando app portafolio</p>
-      </header>
+      <span className="components">
+        <InitialPage />
+        {/* <SumaryOfMy /> */}
+      </span>
     </div>
   );
 }
