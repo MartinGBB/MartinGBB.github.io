@@ -1,6 +1,6 @@
 import { SumaryOfMe } from "../Components";
 
-function PageTwo() {
+function AboutMe() {
   return (
     <div>
       <SumaryOfMe />
@@ -8,4 +8,4 @@ function PageTwo() {
   );
 }
 
-export default PageTwo;
+export default AboutMe;

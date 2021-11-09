@@ -9,8 +9,8 @@ function Presentation() {
       <div className="text-content">
         <span>Olá, o meu nome é</span>
         <h1 className="nome">Martin Brazón</h1>
-        <p>- Desenvolvedor Web Full Stack</p>
-        <Link to="/pagetwo">
+        <p>— Desenvolvedor Web Full Stack</p>
+        <Link to="/aboutme">
           <Button />
         </Link>
       </div> 

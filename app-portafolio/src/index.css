@@ -2,9 +2,13 @@
 :root {
   --bg-color: rgb(49, 89, 148);
   --main-font-color: rgb(255, 255, 255);
-  --secondary-font-color: rgba(255, 255, 255, 0.829);
+  --secondary-font-color: rgb(212, 212, 212);
   --font-primary: 'Montserrat', sans-serif;
+  --font-size-primary: 32px;
+  --font-size-secundary: 22px;
+  --font-size-parag: 18px;
 }
+
 
 body {
   margin: 0;

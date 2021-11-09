@@ -2,7 +2,7 @@ import './style.css';
 
 function Button() {
   return (
-    <div>
+    <div className="btn-div">
       <button type="button">conoceme</button>
     </div>  
   );
