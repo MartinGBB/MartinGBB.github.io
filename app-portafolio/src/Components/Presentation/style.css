@@ -1,0 +1,39 @@
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--bg-color);
+  height: 100vh;
+  flex-wrap: wrap;
+}
+
+.photo-martin {
+  margin-left: 9%;
+  border-radius: 50%;
+  max-width: 32%;
+  transition: all 0.7s ease;
+  /* -webkit-mask-image:-webkit-gradient(linear, left top, left bottom, right top,
+  from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
+  mask-image: linear-gradient(to left, rgb(0, 0, 0), rgba(0, 0, 0, 0.253)); */
+}
+
+/* .photo-martin:hover {
+  transform: scale(1.1);
+} */
+
+.text-content {
+  color: var(--main-font-color);
+  font-size: 30px;
+  display: flex;
+  display: block;
+  justify-content: flex-start;
+}
+
+h1 {
+  margin: 15px 0px;
+}
+
+span, p {
+  font-size: 77%;
+  color: var(--secondary-font-color);
+}
