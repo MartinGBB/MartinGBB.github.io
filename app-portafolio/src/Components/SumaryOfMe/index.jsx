@@ -1,9 +1,12 @@
 import './style.css';
 import minhaFoto2 from '../../images/MinhaFoto2.jpeg'
+import AOS from 'aos';
+import 'aos/dist/aos.css'
+AOS.init();
 
 function SumaryOfMe() {
   return (
-    <div className="contentSumary">
+    <div data-aos="fade-up" className="content">
       <div>
       <p className="title">— Sobre mim</p>
       <h1 className="title">Quem eu sou</h1>
@@ -23,6 +26,6 @@ function SumaryOfMe() {
       
     </div>
   );
-}
+};
 
 export default SumaryOfMe;

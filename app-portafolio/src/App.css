@@ -1,5 +1,7 @@
-/* .App {
-  background-color: rgb(243, 242, 237);
+.App {
+  background-image: url("./images/5673927.jpg");
+  background-attachment: fixed;
+  background-size: auto;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -7,7 +9,7 @@
   justify-content: center;
 }
 
-.components {
+/* .components {
   width: 95%;
   height: 90vh;
   display: flex;

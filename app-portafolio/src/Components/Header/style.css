@@ -1,0 +1,21 @@
+.mainHeader {
+width: 100%;
+max-height: 72px;
+background-color: rgba(0, 0, 0, 0.527);
+display: inline-block;
+display: flex;
+}
+
+.menu {
+width: 30px;
+position:static;
+margin: 20px;
+}
+
+.titlePortafolio {
+display: inline-block;
+align-items: center;
+text-align: center;
+margin: auto;
+color:white;
+}
