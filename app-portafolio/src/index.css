@@ -1,10 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zen+Antique&display=swap');
 :root {
-  --bg-color: rgb(49, 89, 148);
+  --bg-color: rgba(0, 0, 0, 0.76);
   --main-font-color: rgb(255, 255, 255);
-  --secondary-font-color: rgba(255, 255, 255, 0.829);
-  --font-primary: 'Montserrat', sans-serif;
+  --secondary-font-color: rgb(212, 212, 212);
+  --font-primary: 'Zen Antique', serif;
+  --font-size-primary: 35px;
+  --font-size-secundary: 23px;
+  --font-size-parag: 18px;
 }
+
 
 body {
   margin: 0;

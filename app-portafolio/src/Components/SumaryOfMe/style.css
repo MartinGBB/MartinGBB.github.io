@@ -1,0 +1,34 @@
+.minhaFoto {
+  margin-left: 9%;
+  border-radius: 10%;
+  max-width: 22%;
+  box-shadow: 5px 5px 10px rgb(0, 0, 0);
+}
+
+.paragSobreMim {
+  width: 500px;
+  color: var(--secondary-font-color);
+  font-size: var(--font-size-parag);
+}
+
+p.title {
+  font-size: var(--font-size-parag);
+  margin-bottom: 0px;
+  
+}
+
+.title {
+  color: var(--main-font-color);
+  font-size: var(--font-size-secundary);
+}
+
+
+.contentSumary {  
+  color: var(--main-font-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--bg-color);
+  height: 100vh;
+  flex-wrap: wrap;
+};

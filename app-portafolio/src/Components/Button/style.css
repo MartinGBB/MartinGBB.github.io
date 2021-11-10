@@ -5,11 +5,12 @@ button {
   color: var(--main-font-color);
   font-size: 20px;
   padding: 9px;
-  width: 125px;
+  width: 190px;
   transition: all 0.5s;
   cursor: pointer;
   margin: 5px;
 }
+
 
 button:hover {
   background-color: #ad9403;
