@@ -1,6 +1,6 @@
 button {
   border-radius: 18px;
-  background-color: #a17d0f;
+  background-color: var(--icons-color);
   border: none;
   color: var(--main-font-color);
   font-size: 20px;

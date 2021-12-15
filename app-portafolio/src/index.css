@@ -3,6 +3,7 @@
   --bg-color: rgba(0, 0, 0, 0.76);
   --main-font-color: rgb(255, 255, 255);
   --secondary-font-color: rgb(212, 212, 212);
+  --icons-color: rgb(161, 125, 15);
   --font-primary: 'Zen Antique', serif;
   --font-size-primary: 35px;
   --font-size-secundary: 23px;
@@ -13,4 +14,5 @@
 body {
   margin: 0;
   font-family: var(--font-primary);
+  width:100%;
 }

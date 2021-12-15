@@ -1,0 +1,19 @@
+.navegation-container {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+li {
+  display: inline;
+  margin: 15px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline 5px solid;
+  color: var(--icons-color);
+}
