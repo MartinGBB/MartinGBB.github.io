@@ -2,7 +2,7 @@ import { SumaryOfMe } from "../Components";
 
 function AboutMe() {
   return (
-    <div>
+    <div id='about-me'>
       <SumaryOfMe />
     </div>
   );

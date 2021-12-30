@@ -1,9 +1,11 @@
 import './style.css';
 
-function Button() {
+function Button(props) {
   return (
     <div className="btn-div">
-      <button type="button">conoceme</button>
+      <a href={ props.link }>
+        <button type="button" >{ props.name }</button>
+      </a>
     </div>  
   );
 }

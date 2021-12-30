@@ -2,7 +2,7 @@ import { Skills } from '../Components';
 
 function MySkills() {
   return(
-    <div data-aos="fade-up" className="content">  
+    <div  id='skills' data-aos="fade-up" className="content">  
       <Skills />
     </div>
   );

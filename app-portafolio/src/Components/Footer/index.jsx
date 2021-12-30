@@ -6,10 +6,9 @@ AOS.init();
 
 function Footer() {
   return(
-    <div className="mainFooter">
+    <div id='contact' className="mainFooter">
       <nav className='contact'>
       <Contact />
-      <p>desenvolvido por Martin Brazon</p>
       </nav>
     </div>
   );

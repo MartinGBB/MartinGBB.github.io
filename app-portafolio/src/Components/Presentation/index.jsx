@@ -1,7 +1,6 @@
 import './style.css';
 import fotoMartin from '../../images/minhafoto.jpg';
 import Button from "../Button";
-import { Link } from 'react-router-dom'
 
 function Presentation() {
   return(
@@ -10,9 +9,7 @@ function Presentation() {
         <span className="info">Olá, o meu nome é</span>
         <h1 className="info">Martin Brazón</h1>
         <p className="info">— Desenvolvedor Web Full Stack</p>
-        <Link to="/aboutme">
-          <Button />
-        </Link>
+          <Button link={ '#about-me' } name={ 'conoceme' } />
       </div> 
       <img src={fotoMartin} className="photo-martin" alt="foto de Martin" />
     </div>
