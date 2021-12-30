@@ -1,23 +1,19 @@
-import { Switch } from 'react-router-dom';
+import './App.css';
 import InitialPage from './Pages/InitialPage';
 import AboutMe from './Pages/AboutMe';
-import { Route } from 'react-router-dom';
-import Header from './Components/Header';
-import Footer from './Components/Footer';
-
-import './App.css';
+import MySkills from './Pages/MySkills';
+import { Header } from './Components';
+import { Footer } from './Components';
 
 function App() {
   return (
-    <Switch>
-      <div className="App">
-        <Header />
-        <Route exact path="/" component={ InitialPage } />
-        <AboutMe />
-        <Footer />
-    {/* <Route path="/:id" component={ AboutMe } />; */}
-      </div>
-    </Switch>
+    <div className="App">
+      <Header />
+      <InitialPage />
+      <AboutMe />
+      <MySkills />
+      <Footer />
+    </div>
   );
 }
   
