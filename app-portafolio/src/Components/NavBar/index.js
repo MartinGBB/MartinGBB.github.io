@@ -6,10 +6,10 @@ function NavBar() {
       <nav>
         <ul>
           <li>
-            <a href='#portafolio'>Home</a>
+            <a href='/portafolio'>Home</a>
           </li>
           <li>
-            <a href='#abautme'>About Me</a>
+            <a href='/abautme'>About Me</a>
           </li>
           <li>
             <a href='/skills'>Skills</a>

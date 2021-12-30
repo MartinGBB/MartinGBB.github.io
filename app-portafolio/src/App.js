@@ -1,7 +1,7 @@
 import './App.css';
 import InitialPage from './Pages/InitialPage';
 import AboutMe from './Pages/AboutMe';
-import ChangeCountry from './Pages/ChangeCountry';
+import MySkills from './Pages/MySkills';
 import { Header } from './Components';
 import { Footer } from './Components';
 
@@ -11,7 +11,7 @@ function App() {
       <Header />
       <InitialPage />
       <AboutMe />
-      <ChangeCountry />
+      <MySkills />
       <Footer />
     </div>
   );

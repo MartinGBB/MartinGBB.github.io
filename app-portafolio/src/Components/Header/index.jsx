@@ -1,5 +1,5 @@
 import './style.css';
-import NavBar from '../NavBar';
+import { NavBar } from '..';
 import AOS from 'aos';
 import 'aos/dist/aos.css'
 AOS.init();
