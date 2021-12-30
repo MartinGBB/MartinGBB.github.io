@@ -11,8 +11,18 @@
 }
 
 
+
+html {
+  scroll-behavior: smooth;
+}
+ 
+:target {
+  scroll-margin-top: .8em;
+}
+
 body {
   margin: 0;
   font-family: var(--font-primary);
   width:100%;
+  background-color: black;
 }

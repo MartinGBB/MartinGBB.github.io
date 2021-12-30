@@ -6,16 +6,16 @@ function NavBar() {
       <nav>
         <ul>
           <li>
-            <a href='/portafolio'>Home</a>
+            <a href='#home'>Home</a>
           </li>
           <li>
-            <a href='/abautme'>About Me</a>
+            <a href='#about-me'>About Me</a>
           </li>
           <li>
-            <a href='/skills'>Skills</a>
+            <a href='#skills'>Skills</a>
           </li>
           <li>
-            <a href='/contact'>Contact</a>
+            <a href='#contact'>Contact</a>
           </li>
         </ul>
       </nav>

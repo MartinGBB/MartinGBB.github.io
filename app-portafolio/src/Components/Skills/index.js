@@ -6,12 +6,12 @@ import './style.css';
 function Skills() {
   return (
       <div>
-        <h1>skills</h1>
+        <h1 className='title-skills'>skills</h1>
         <div className='container'>
         {
           data.map(({ id, dev, list}) => (
             <div  key = { id }>
-              <h2>{ dev }</h2>
+              <h3>{ dev }</h3>
               <div className='icons-container'>
                 {
                   list.map(({ name, icon, id }) => (
