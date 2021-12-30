@@ -1,6 +1,6 @@
-import GithubIcon from '../images/contacto/github.png';
-import linkedinIcon from '../images/contacto/linkedin.png';
-import whatsappIcon from '../images/contacto/whatsapp.png'
+import GithubIcon from '../images/contacto/github.svg';
+import linkedinIcon from '../images/contacto/linkedin.svg';
+import whatsappIcon from '../images/contacto/whatsapp.svg'; 
 
 const data = [
   {

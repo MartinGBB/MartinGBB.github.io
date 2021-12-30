@@ -28,18 +28,13 @@
   margin: 5px 5px;
 }
 
-p {
+.icons > p {
   color:white;
 }
 
-h1 {
+.title-skills {
   display: flex;
   justify-content: center;
   color: white;
   margin: 5px;
-}
-
-h2 {
-  display: flex;
-  justify-content: center;
 }

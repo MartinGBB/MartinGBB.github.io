@@ -1,0 +1,14 @@
+.contact-icons {
+  padding: 5px;
+  margin: 15px;
+  display: flex;
+  width: 150px;
+  justify-content: space-between;
+}
+
+.icon {
+  width: 30px;
+}
+.icon:hover {
+  transform: scale(1.2);
+}

@@ -5,9 +5,15 @@
   background-color: rgba(0, 0, 0, 0.527);
 }
 
-.text {
-  color: rgba(255, 255, 255, 0.336);
-  display: flex;
+.contact {
   justify-content: center;
   align-items: center;
+  display: flex;
+}
+
+.make-is {
+  position:relative;
+  justify-content: center;
+  align-items: center;
+  display: flex;
 }
