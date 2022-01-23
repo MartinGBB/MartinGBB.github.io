@@ -15,7 +15,7 @@ function Skills() {
               <div className='icons-container'>
                 {
                   list.map(({ name, icon, id }) => (
-                    <div className='icons' key={id}>
+                    <div data-aos="zoom-in-up" data-aos-duration="1200" className='icons' key={id}>
                       <img src={ icon } alt={ name } />
                       <p>{ name }</p>
                     </div>

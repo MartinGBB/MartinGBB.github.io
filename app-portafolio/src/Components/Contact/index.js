@@ -6,7 +6,7 @@ function Contact() {
     <div className="contact-icons">
       {
         data.map(({ id, name, icon, link }) => (
-          <a key={ id } href={ link }>
+          <a key={ id } href={ link } target="_blank" rel="noreferrer">
             <img src={ icon } alt={ name } className='icon' />
           </a>
         ))
