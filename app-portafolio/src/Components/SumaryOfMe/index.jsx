@@ -7,7 +7,7 @@ AOS.init();
 function SumaryOfMe() {
   return (
     <div data-aos="fade-up" className="content">
-      <div>
+      <div data-aos="fade-up">
       <p className="title">— Sobre mim</p>
       <h1 className="title">Quem eu sou</h1>
 
@@ -22,7 +22,7 @@ function SumaryOfMe() {
       </p>
 
       </div>
-      <img src={ minhaFoto2 } className="minhaFoto" alt="foto de Martin" />
+      <img className="paragSobreMim" src={ minhaFoto2 } className="minhaFoto" alt="foto de Martin" />
       
     </div>
   );
